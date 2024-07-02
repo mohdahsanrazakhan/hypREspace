@@ -1,0 +1,43 @@
+.section-main-title {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.group-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  min-height: 80vh;
+  place-items: center;
+  margin: 0 100px;
+}
+
+.btn-design {
+  border: 2px solid black;
+  padding: 15px 20px;
+  font-family: inherit;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.btn-design:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 1024px) {
+  .group-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .group-card {
+    margin: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .group-card {
+    grid-template-columns: 1fr;
+  }
+}
