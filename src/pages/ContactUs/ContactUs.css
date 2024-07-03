@@ -1,39 +1,58 @@
 .contact-form {
-  padding: 100px 400px;
+  padding: 100px 200px;
   min-height: 100vh;
-  display: grid;
-  place-items: center;
+}
+
+.section-contact-title {
+  font-size: 2.4rem;
+  text-align: start;
+  font-weight: 400;
+  margin: 0 0 26px 0;
 }
 
 .input-fields {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
-.input-fields input, .input-fields textarea, .input-fields button {
-  border: 2px solid black;
-  padding: 15px 20px;
+.nest-input-fields {
+  width: 100%;
+}
+
+.input-fields input, .input-fields textarea {
+  padding: 25px 15px;
+  border: 1px solid #EAECF1;
+  border-radius: 7px;
+  background-color: #F6F7FA;
   font-family: inherit;
-  font-weight: 600;
-  background-color: transparent;
 }
 
-.input-fields button:hover {
+.input-fields input:focus, .input-fields textarea:focus {
+  outline-color: #007aff;
+}
+
+.input-fields button {
   background-color: black;
   color: white;
   border-radius: 10px;
-  transition: all 0.5s ease-in-out;
+  padding: 10px 25px;
+  align-self: self-start;
+  font-family: inherit;
 }
 
 .input-group {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
-.input-group input {
+.form-required {
+  color: #d63637;
+}
+
+.input-group input, .input-group .nest-input-fields input {
   width: 100%;
 }
 
@@ -52,5 +71,9 @@
 @media only screen and (max-width: 426px) {
   .contact-form {
     padding: 100px 50px;
+  }
+
+  .input-group {
+    flex-direction: column;
   }
 }

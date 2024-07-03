@@ -1,10 +1,14 @@
 import ContactUs from "../ContactUs/ContactUs"
 import Mission from "../Mission/Mission"
 import OurValues from "../OurValues/OurValues"
+import Hero from "../../components/Hero/Hero"
 
 const Home = () => {
   return (
     <>
+      <div id="hero">
+        <Hero />
+      </div>
       <div id="mission">
         <Mission />
       </div>

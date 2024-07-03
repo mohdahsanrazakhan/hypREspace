@@ -41,14 +41,12 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${isScrolled ? 'transparent' : 'solid'}`}>
       <img className='hypREspace-logo' src={hypREspaceLogo} alt="hypREspace logo" />
-      {/* <div className={`navbar-list ${showMenu ? 'show' : ''}`} onClick={handleClose}> */}
         <ul className={`navbar-list ${showMenu ? 'show' : ''}`} onClick={handleClose}>
-          <li onClick={() => scrollToSection("home")}>Home</li>
+          <li onClick={() => scrollToSection("hero")}>Home</li>
           <li onClick={() => scrollToSection("mission")}>Mission</li>
           <li onClick={() => scrollToSection("ourvalues")}>Our Values</li>
           <li onClick={() => scrollToSection("contactus")}>Contact Us</li>
         </ul>
-      {/* </div> */}
       <div className='menu' onClick={toggleMenu}>
         {!showMenu ? (<FiMenu />) : (<FiX />)}
       </div>
