@@ -11,7 +11,7 @@
   height: 380px;
   border: 10px solid white;
   -webkit-box-shadow: 0 0 10px #cccccc;
-        box-shadow: 0 0 10px #cccccc;
+  box-shadow: 0 0 10px #cccccc;
   position: relative;
 
 }
@@ -50,7 +50,10 @@
 
 .mission-paragraph {
   text-align: start;
-  background-color: #666666;
+  background-image: url("../../assets/images/the-owl-and-the-galaxy.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   position: static;
   width: 100%;
