@@ -1,3 +1,9 @@
+.section-main-title {
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: 400;
+}
+
 .interest-portion {
   display: flex;
   flex-direction: column;
@@ -5,4 +11,19 @@
   align-items: center;
   gap: 30px;
   margin: 50px 0;
+}
+
+.btn-design {
+  border: 2px solid black;
+  padding: 15px 20px;
+  font-family: inherit;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.btn-design:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
 }

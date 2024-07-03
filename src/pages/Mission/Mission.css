@@ -7,8 +7,8 @@
 }
 
 .mission-img-part {
-  width: 350px;
-  height: 350px;
+  width: 380px;
+  height: 380px;
   border: 10px solid white;
   -webkit-box-shadow: 0 0 10px #cccccc;
         box-shadow: 0 0 10px #cccccc;
@@ -69,10 +69,15 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
   .mission-img-part {
     width: 270px;
     height: 270px;
+  }
+
+  #map-background {
+    width: 200px;
+    right: -30px;
   }
 
   .mission-paragraph {
