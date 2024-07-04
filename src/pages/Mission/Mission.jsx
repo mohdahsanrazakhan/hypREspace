@@ -11,7 +11,7 @@ const Mission = () => {
         {/* Images Portion */}
         <div className="mission-img-part">
           <img src={map} alt="hypREspace map" />
-          <img id='map-background' src={mapBackground} alt="map background" />
+          <img id='map-background' src={mapBackground} alt="map background"  className='filter'/>
         </div>
         {/* Text Portion */}
         <div className='mission-info-part'>

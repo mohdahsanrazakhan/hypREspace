@@ -55,6 +55,20 @@
 .input-group input, .input-group .nest-input-fields input {
   width: 100%;
 }
+.content_center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 5px;
+}
+.button_contact{
+  margin: auto;
+}
+.mt_reCaptcha{
+  margin-bottom: 10px;
+}
 
 @media only screen and (max-width: 1024px) {
   .contact-form {

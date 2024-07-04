@@ -62,6 +62,11 @@
   margin: 20px 0;
 }
 
+.filter {
+  filter: brightness(200%) contrast(0%) saturate(0%) blur(0px) hue-rotate(0deg);
+}
+
+
 @media only screen and (max-width: 768px) {
   .mission-parent {
     flex-direction: column;
