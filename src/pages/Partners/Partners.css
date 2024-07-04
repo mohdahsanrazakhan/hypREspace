@@ -1,0 +1,12 @@
+.group-companies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin: 50px 0 0 0;
+}
+
+.group-companies img {
+  width: 200px;
+}

@@ -7,7 +7,7 @@ const ContactUs = () => {
 
   return (
     <div className='contact-form'>
-      {/* <h2 className='section-contact-title'>Contact Us</h2> */}
+      <h2 className="section-main-title">Interested? Let’s Talk!</h2>
       <div className='input-fields'>
         <label>Name <span className='form-required'>*</span></label>
         <div className="input-group">
